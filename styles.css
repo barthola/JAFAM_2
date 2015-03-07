@@ -15,7 +15,16 @@ nav{
   padding: 0.5em;
   margin: 0em;
 }
+<<<<<<< Updated upstream
 nav input, button{
+=======
+
+nav li {
+  display: inline;
+}
+
+nav a, button{
+>>>>>>> Stashed changes
   box-shadow: 2.5px 2.5px 1.5px 0.5px rgba(0,0,0,0.5);
   border-radius: 5px;
   text-decoration: none;
@@ -35,6 +44,7 @@ nav input:hover, button:hover{
   cursor:pointer;
 }
 
+<<<<<<< Updated upstream
 nav input:focus{
   text-decoration:none;
   outline:none;
@@ -103,6 +113,21 @@ nav input:focus{
   height:2em;
   margin-left:6.4em;
   transition: 1s;
+=======
+.pull-left {
+  float: left!important;
+}
+
+.pull-right {
+  float: right!important;
+}
+
+#createForm{
+  background:#CCCCCC;
+  width:12em;
+  height:15.5em;
+  box-shadow: 2.5px 2.5px 1.5px 0.5px rgba(0,0,0,0.5);
+>>>>>>> Stashed changes
 }
 
 #create_form #submit_button:hover{
